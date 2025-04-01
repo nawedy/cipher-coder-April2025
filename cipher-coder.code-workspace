@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Extension and fork/vscode/src/vs"
+		}
+	],
+	"settings": {}
+}

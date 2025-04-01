@@ -1,0 +1,31 @@
+{
+  "externalLLM": {
+    "apiKey": "YOUR_API_KEY_HERE",
+    "endpoint": "https://api.example.com/v1/engines/davinci-codex/completions",
+    "defaultModel": "codex-davinci-002",
+    "fallbackModel": "text-davinci-003"
+  },
+  "localLLM": {
+    "modelPath": "./models/local_model",
+    "useGPU": true,
+    "maxThreads": 4,
+    "quantization": "int8" 
+  },
+  "inference": {
+    "timeout": 30000,
+    "maxTokens": 150,
+    "temperature": 0.7,
+    "topP": 1.0,
+    "frequencyPenalty": 0.0,
+    "presencePenalty": 0.0
+  },
+  "chat": {
+    "contextWindow": 10,
+    "saveHistory": true,
+    "historyPath": "./history"
+  },
+  "security": {
+    "encryptPayloads": true,
+    "logSensitiveData": false
+  }
+}

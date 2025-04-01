@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+  File: src/front/index.html
+  Project: Cipher Intelligence Labs VSCode AI CodeGen
+  Description: HTML entry point for the Electron/webview application.
+  Copyright © 2025 Cipher Intelligence Labs
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://*.openai.com https://*.anthropic.com">
+  <title>Cipher Coder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="root"></div>
+  
+  <!-- In production, this would be bundled by webpack or another bundler -->
+  <script src="renderer.js"></script>
+</body>
+</html>
